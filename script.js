@@ -10,7 +10,7 @@ greetingMessage = 'Good Morning !!' ;
 
 
 }
-else if(currenthour<18){
+else if(currenthour<18 && currenthour>12){
     greetingMessage = 'Good Afternoon !!'
 
 }else{
